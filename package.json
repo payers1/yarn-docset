@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "scrape":"node scraper.js",
+    "build": "node index.js"
+  },
   "dependencies": {
     "bluebird": "^3.5.0",
     "sqlite": "^2.7.0",
