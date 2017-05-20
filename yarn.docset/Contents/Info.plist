@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>yarn</string>
+	<key>CFBundleName</key>
+	<string>Yarn</string>
+	<key>DocSetPlatformFamily</key>
+	<string>yarn</string>
+	<key>isDashDocset</key>
+	<true/>
+	<key>DashDocSetFamily</key>
+	<string>dashtoc</string>
+	<key>isJavaScriptEnabled</key><false/>
+	<key>dashIndexFilePath</key>
+	<string>http://yarnpkg.com/en/docs/cli</string>
+</dict>
+</plist>

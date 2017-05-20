@@ -1,0 +1,361 @@
+[
+
+  {
+    "name": "yarn add <package...>",
+    "path": "https://yarnpkg.com/en/docs/cli/add#toc-yarn-add"
+  },
+  {
+    "name": "yarn add <package...> [--dev/-D]",
+    "path": "https://yarnpkg.com/en/docs/cli/add#toc-yarn-add-dev-d"
+  },
+  {
+    "name": "yarn add <package...> [--peer/-P]",
+    "path": "https://yarnpkg.com/en/docs/cli/add#toc-yarn-add-peer-p"
+  },
+  {
+    "name": "yarn add <package...> [--optional/-O]",
+    "path": "https://yarnpkg.com/en/docs/cli/add#toc-yarn-add-optional-o"
+  },
+  {
+    "name": "yarn add <package...> [--exact/-E]",
+    "path": "https://yarnpkg.com/en/docs/cli/add#toc-yarn-add-exact-e"
+  },
+  {
+    "name": "yarn add <package...> [--tilde/-T]",
+    "path": "https://yarnpkg.com/en/docs/cli/add#toc-yarn-add-tilde-t"
+  }
+,
+  {
+    "name": "yarn bin",
+    "path": "https://yarnpkg.com/en/docs/cli/bin#toc-yarn-bin"
+  }
+,
+  {
+    "name": "yarn cache ls",
+    "path": "https://yarnpkg.com/en/docs/cli/cache#toc-yarn-cache-ls"
+  },
+  {
+    "name": "yarn cache dir",
+    "path": "https://yarnpkg.com/en/docs/cli/cache#toc-yarn-cache-dir"
+  },
+  {
+    "name": "yarn cache clean",
+    "path": "https://yarnpkg.com/en/docs/cli/cache#toc-yarn-cache-clean"
+  }
+,
+  {
+    "name": "yarn check",
+    "path": "https://yarnpkg.com/en/docs/cli/check#toc-yarn-check"
+  },
+  {
+    "name": "yarn check --integrity",
+    "path": "https://yarnpkg.com/en/docs/cli/check#toc-yarn-check-integrity"
+  }
+,
+  {
+    "name": "yarn clean",
+    "path": "https://yarnpkg.com/en/docs/cli/clean#toc-yarn-clean"
+  }
+,
+  {
+    "name": "yarn config set <key> <value> [-g|--global]",
+    "path": "https://yarnpkg.com/en/docs/cli/config#toc-yarn-config-set-g-global"
+  },
+  {
+    "name": "yarn config get <key>",
+    "path": "https://yarnpkg.com/en/docs/cli/config#toc-yarn-config-get"
+  },
+  {
+    "name": "yarn config delete <key>",
+    "path": "https://yarnpkg.com/en/docs/cli/config#toc-yarn-config-delete"
+  },
+  {
+    "name": "yarn config list",
+    "path": "https://yarnpkg.com/en/docs/cli/config#toc-yarn-config-list"
+  }
+,
+  {
+    "name": "yarn generate-lock-entry",
+    "path": "https://yarnpkg.com/en/docs/cli/generate-lock-entry#toc-yarn-generate-lock-entry"
+  }
+,
+  {
+    "name": "yarn global <add/bin/ls/remove/upgrade> [--prefix]",
+    "path": "https://yarnpkg.com/en/docs/cli/global#toc-yarn-global"
+  }
+,
+  {
+    "name": "yarn info <package> [<field>]",
+    "path": "https://yarnpkg.com/en/docs/cli/info#toc-yarn-info"
+  }
+,
+  {
+    "name": "yarn init",
+    "path": "https://yarnpkg.com/en/docs/cli/init#toc-yarn-init"
+  },
+  {
+    "name": "yarn init",
+    "path": "https://yarnpkg.com/en/docs/cli/init#toc-setting-defaults-for-yarn-init"
+  },
+  {
+    "name": "yarn init --yes/-y",
+    "path": "https://yarnpkg.com/en/docs/cli/init#toc-yarn-init-yes-y"
+  }
+,
+  {
+    "name": "yarn install",
+    "path": "https://yarnpkg.com/en/docs/cli/install#toc-yarn-install"
+  },
+  {
+    "name": "yarn install --check-files",
+    "path": "https://yarnpkg.com/en/docs/cli/install#toc-yarn-install-check-files"
+  },
+  {
+    "name": "yarn install --flat",
+    "path": "https://yarnpkg.com/en/docs/cli/install#toc-yarn-install-flat"
+  },
+  {
+    "name": "yarn install --force",
+    "path": "https://yarnpkg.com/en/docs/cli/install#toc-yarn-install-force"
+  },
+  {
+    "name": "yarn install --har",
+    "path": "https://yarnpkg.com/en/docs/cli/install#toc-yarn-install-har"
+  },
+  {
+    "name": "yarn install --ignore-scripts",
+    "path": "https://yarnpkg.com/en/docs/cli/install#toc-yarn-install-ignore-scripts"
+  },
+  {
+    "name": "yarn install --modules-folder <path>",
+    "path": "https://yarnpkg.com/en/docs/cli/install#toc-yarn-install-modules-folder"
+  },
+  {
+    "name": "yarn install --no-lockfile",
+    "path": "https://yarnpkg.com/en/docs/cli/install#toc-yarn-install-no-lockfile"
+  },
+  {
+    "name": "yarn install --production",
+    "path": "https://yarnpkg.com/en/docs/cli/install#toc-yarn-install-production"
+  },
+  {
+    "name": "yarn install --pure-lockfile",
+    "path": "https://yarnpkg.com/en/docs/cli/install#toc-yarn-install-pure-lockfile"
+  },
+  {
+    "name": "yarn install --ignore-engines",
+    "path": "https://yarnpkg.com/en/docs/cli/install#toc-yarn-install-ignore-engines"
+  },
+  {
+    "name": "yarn install --offline",
+    "path": "https://yarnpkg.com/en/docs/cli/install#toc-yarn-install-offline"
+  }
+,
+  {
+    "name": "yarn licenses ls",
+    "path": "https://yarnpkg.com/en/docs/cli/licenses#toc-yarn-licenses-ls"
+  },
+  {
+    "name": "yarn licenses generate-disclaimer",
+    "path": "https://yarnpkg.com/en/docs/cli/licenses#toc-yarn-licenses-generate-disclaimer"
+  }
+,
+  {
+    "name": "yarn link",
+    "path": "https://yarnpkg.com/en/docs/cli/link#toc-yarn-link-in-package-you-want-to-link"
+  },
+  {
+    "name": "yarn link [package...]",
+    "path": "https://yarnpkg.com/en/docs/cli/link#toc-yarn-link-package"
+  }
+,
+  {
+    "name": "yarn login",
+    "path": "https://yarnpkg.com/en/docs/cli/login#toc-yarn-login"
+  }
+,
+  {
+    "name": "yarn logout",
+    "path": "https://yarnpkg.com/en/docs/cli/logout#toc-yarn-logout"
+  }
+,
+  {
+    "name": "yarn list",
+    "path": "https://yarnpkg.com/en/docs/cli/list#toc-yarn-list"
+  },
+  {
+    "name": "yarn list [--depth]",
+    "path": "https://yarnpkg.com/en/docs/cli/list#toc-yarn-list-depth"
+  }
+,
+  {
+    "name": "yarn outdated",
+    "path": "https://yarnpkg.com/en/docs/cli/outdated#toc-yarn-outdated"
+  },
+  {
+    "name": "yarn outdated [package...]",
+    "path": "https://yarnpkg.com/en/docs/cli/outdated#toc-yarn-outdated-package"
+  }
+,
+  {
+    "name": "yarn owner ls <package>",
+    "path": "https://yarnpkg.com/en/docs/cli/owner#toc-yarn-owner-ls"
+  },
+  {
+    "name": "yarn owner add <user> <package>",
+    "path": "https://yarnpkg.com/en/docs/cli/owner#toc-yarn-owner-add"
+  },
+  {
+    "name": "yarn owner rm <user> <package>",
+    "path": "https://yarnpkg.com/en/docs/cli/owner#toc-yarn-owner-rm"
+  }
+,
+  {
+    "name": "yarn pack",
+    "path": "https://yarnpkg.com/en/docs/cli/pack#toc-yarn-pack"
+  },
+  {
+    "name": "yarn pack --filename <filename>",
+    "path": "https://yarnpkg.com/en/docs/cli/pack#toc-yarn-pack-filename"
+  }
+,
+  {
+    "name": "yarn publish",
+    "path": "https://yarnpkg.com/en/docs/cli/publish#toc-yarn-publish"
+  },
+  {
+    "name": "yarn publish [tarball]",
+    "path": "https://yarnpkg.com/en/docs/cli/publish#toc-yarn-publish-tarball"
+  },
+  {
+    "name": "yarn publish [folder]",
+    "path": "https://yarnpkg.com/en/docs/cli/publish#toc-yarn-publish-folder"
+  },
+  {
+    "name": "yarn publish --tag <tag>",
+    "path": "https://yarnpkg.com/en/docs/cli/publish#toc-yarn-publish-tag"
+  },
+  {
+    "name": "yarn publish --access <public|restricted>",
+    "path": "https://yarnpkg.com/en/docs/cli/publish#toc-yarn-publish-access"
+  }
+,
+  {
+    "name": "yarn remove <package...>",
+    "path": "https://yarnpkg.com/en/docs/cli/remove#toc-yarn-remove"
+  }
+,
+  {
+    "name": "yarn run [script] [-- <args>]",
+    "path": "https://yarnpkg.com/en/docs/cli/run#toc-yarn-run-script"
+  },
+  {
+    "name": "yarn run",
+    "path": "https://yarnpkg.com/en/docs/cli/run#toc-yarn-run"
+  }
+,
+  {
+    "name": "yarn self-update",
+    "path": "https://yarnpkg.com/en/docs/cli/self-update#toc-yarn-self-update"
+  }
+,
+  {
+    "name": "yarn tag add <package>@<version> <tag>",
+    "path": "https://yarnpkg.com/en/docs/cli/tag#toc-yarn-tag-add"
+  },
+  {
+    "name": "yarn tag rm <package> <tag>",
+    "path": "https://yarnpkg.com/en/docs/cli/tag#toc-yarn-tag-rm"
+  },
+  {
+    "name": "yarn tag ls [<package>]",
+    "path": "https://yarnpkg.com/en/docs/cli/tag#toc-yarn-tag-ls"
+  }
+,
+  {
+    "name": "yarn team",
+    "path": "https://yarnpkg.com/en/docs/cli/team#toc-yarn-team"
+  },
+  {
+    "name": "yarn team create <scope:team>",
+    "path": "https://yarnpkg.com/en/docs/cli/team#toc-yarn-team-create"
+  },
+  {
+    "name": "yarn team destroy <scope:team>",
+    "path": "https://yarnpkg.com/en/docs/cli/team#toc-yarn-team-destroy"
+  },
+  {
+    "name": "yarn team add <scope:team> <user>",
+    "path": "https://yarnpkg.com/en/docs/cli/team#toc-yarn-team-add"
+  },
+  {
+    "name": "yarn team rm <scope:team> <user>",
+    "path": "https://yarnpkg.com/en/docs/cli/team#toc-yarn-team-rm"
+  },
+  {
+    "name": "yarn team ls <scope>|<scope:team>",
+    "path": "https://yarnpkg.com/en/docs/cli/team#toc-yarn-team-ls"
+  }
+,
+  {
+    "name": "yarn test",
+    "path": "https://yarnpkg.com/en/docs/cli/test#toc-yarn-test"
+  },
+  {
+    "name": "yarn run test",
+    "path": "https://yarnpkg.com/en/docs/cli/test#toc-yarn-run-test"
+  }
+,
+  {
+    "name": "yarn unlink",
+    "path": "https://yarnpkg.com/en/docs/cli/unlink#toc-yarn-unlink"
+  },
+  {
+    "name": "yarn unlink [package]",
+    "path": "https://yarnpkg.com/en/docs/cli/unlink#toc-yarn-unlink-package"
+  }
+,
+  {
+    "name": "yarn upgrade",
+    "path": "https://yarnpkg.com/en/docs/cli/upgrade#toc-yarn-upgrade"
+  },
+  {
+    "name": "yarn upgrade [package]",
+    "path": "https://yarnpkg.com/en/docs/cli/upgrade#toc-yarn-upgrade-package"
+  },
+  {
+    "name": "yarn upgrade [package@version]",
+    "path": "https://yarnpkg.com/en/docs/cli/upgrade#toc-yarn-upgrade-package-version"
+  },
+  {
+    "name": "yarn upgrade [package@tag]",
+    "path": "https://yarnpkg.com/en/docs/cli/upgrade#toc-yarn-upgrade-package-tag"
+  },
+  {
+    "name": "yarn upgrade [package] --ignore-engines",
+    "path": "https://yarnpkg.com/en/docs/cli/upgrade#toc-yarn-upgrade-package-ignore-engines"
+  }
+,
+  {
+    "name": "yarn upgrade-interactive",
+    "path": "https://yarnpkg.com/en/docs/cli/upgrade-interactive#toc-yarn-upgrade-interactive"
+  }
+,
+  {
+    "name": "yarn version",
+    "path": "https://yarnpkg.com/en/docs/cli/version#toc-yarn-version"
+  },
+  {
+    "name": "yarn version --new-version <version>",
+    "path": "https://yarnpkg.com/en/docs/cli/version#toc-yarn-version-new-version"
+  },
+  {
+    "name": "yarn version --no-git-tag-version",
+    "path": "https://yarnpkg.com/en/docs/cli/version#toc-yarn-version-no-git-tag-version"
+  }
+,
+  {
+    "name": "yarn why <query>",
+    "path": "https://yarnpkg.com/en/docs/cli/why#toc-yarn-why"
+  }
+]
