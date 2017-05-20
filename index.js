@@ -2,7 +2,7 @@ const db   = require('sqlite');
 const P    = require('bluebird');
 const data = require('./yarndocs');
 
-const location = __dirname + '/dashing.docset/Contents/Resources/docSet.dsidx';
+const location = __dirname + '/yarn.docset/Contents/Resources/docSet.dsidx';
 
 const createTable = 'CREATE TABLE searchIndex(id INTEGER PRIMARY KEY, name TEXT, type TEXT, path TEXT)';
 const createIndex = 'CREATE UNIQUE INDEX anchor ON searchIndex (name, type, path)';
