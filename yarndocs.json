@@ -75,6 +75,11 @@
   }
 ,
   {
+    "name": "yarn create <starter-kit-package> [<args>]",
+    "path": "https://yarnpkg.com/en/docs/cli/create#toc-yarn-create"
+  }
+,
+  {
     "name": "yarn generate-lock-entry",
     "path": "https://yarnpkg.com/en/docs/cli/generate-lock-entry#toc-yarn-generate-lock-entry"
   }
@@ -82,6 +87,16 @@
   {
     "name": "yarn global <add/bin/ls/remove/upgrade> [--prefix]",
     "path": "https://yarnpkg.com/en/docs/cli/global#toc-yarn-global"
+  }
+,
+  {
+    "name": "yarn help",
+    "path": "https://yarnpkg.com/en/docs/cli/help#toc-yarn-help"
+  }
+,
+  {
+    "name": "yarn import",
+    "path": "https://yarnpkg.com/en/docs/cli/import#toc-yarn-import"
   }
 ,
   {
@@ -352,6 +367,11 @@
   {
     "name": "yarn version --no-git-tag-version",
     "path": "https://yarnpkg.com/en/docs/cli/version#toc-yarn-version-no-git-tag-version"
+  }
+,
+  {
+    "name": "yarn versions",
+    "path": "https://yarnpkg.com/en/docs/cli/versions#toc-yarn-versions"
   }
 ,
   {
