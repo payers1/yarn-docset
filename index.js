@@ -9,7 +9,7 @@ const createIndex = 'CREATE UNIQUE INDEX anchor ON searchIndex (name, type, path
 
 const addRow = (name, onlinePath) => {
   const onlinePathParts = onlinePath
-                          .replace('https://yarnpkg.com/en/docs', '.')
+                          .replace('https://yarnpkg.com/en/docs', '')
                           .split('#');
 const localPath = [onlinePathParts[0], '/index.html#', onlinePathParts[1]].join('');
   return `
