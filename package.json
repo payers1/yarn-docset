@@ -10,6 +10,7 @@
   "dependencies": {
     "bluebird": "^3.5.0",
     "sqlite": "^2.7.0",
-    "x-ray": "^2.3.2"
+    "x-ray": "^2.3.2",
+    "yarn-website": "yarnpkg/website"
   }
 }
