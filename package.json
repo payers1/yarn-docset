@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "scrape":"node scraper.js",
-    "build": "node index.js"
+    "build": "node index.js",
+    "test": ""
   },
   "dependencies": {
     "bluebird": "^3.5.0",
