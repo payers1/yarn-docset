@@ -5,14 +5,14 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, initial-scale=1, viewport-fit=cover">
-  <meta property="og:url" content="http://localhost:4000/en/docs/cli/upgrade/" />
+  <meta property="og:url" content="http://localhost:4000/en/docs/cli/prune/" />
   <meta property="og:site_name" content="Yarn" />
   <meta property="og:title" content="Yarn" />
   <meta property="og:image" content="http://localhost:4000/assets/og_image.png" />
   <meta property="og:description" content="Fast, reliable, and secure dependency management." />
-  <title>yarn upgrade | Yarn</title>
+  <title>yarn prune | Yarn</title>
   <meta name="description" content="Fast, reliable, and secure dependency management.">
-  <link rel="canonical" href="http://localhost:4000/lang/en/docs/cli/upgrade/">
+  <link rel="canonical" href="http://localhost:4000/lang/en/docs/cli/prune/">
   <link rel="alternate" type="application/rss+xml" title="Yarn" href="http://localhost:4000/feed.xml" />
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="search" href="/opensearch.xml" type="application/opensearchdescription+xml" title="Yarn">
@@ -52,10 +52,10 @@
                 <path d="M19.753 10.909c-.624-1.707-2.366-2.726-4.661-2.726-.09 0-.176.002-.262.006l-.016-2.063 3.525-.607c.115-.019.133-.119.109-.231-.023-.111-.167-.883-.188-.976-.027-.131-.102-.127-.207-.109-.104.018-3.25.461-3.25.461l-.013-2.078c-.001-.125-.069-.158-.194-.156l-1.025.016c-.105.002-.164.049-.162.148l.033 2.307s-3.061.527-3.144.543c-.084.014-.17.053-.151.143.019.09.19 1.094.208 1.172.018.08.072.129.188.107l2.924-.504.035 2.018c-1.077.281-1.801.824-2.256 1.303-.768.807-1.207 1.887-1.207 2.963 0 1.586.971 2.529 2.328 2.695 3.162.387 5.119-3.06 5.769-4.715 1.097 1.506.256 4.354-2.094 5.98-.043.029-.098.129-.033.207l.619.756c.08.096.206.059.256.023 2.51-1.73 3.661-4.515 2.869-6.683zm-7.386 3.188c-.966-.121-.944-.914-.944-1.453 0-.773.327-1.58.876-2.156a3.21 3.21 0 0 1 1.229-.799l.082 4.277a2.773 2.773 0 0 1-1.243.131zm2.427-.553l.046-4.109c.084-.004.166-.01.252-.01.773 0 1.494.145 1.885.361.391.217-1.023 2.713-2.183 3.758zm-8.95-7.668a.196.196 0 0 0-.196-.145h-1.95a.194.194 0 0 0-.194.144L.008 16.916c-.017.051-.011.076.062.076h1.733c.075 0 .099-.023.114-.072l1.008-3.318h3.496l1.008 3.318c.016.049.039.072.113.072h1.734c.072 0 .078-.025.062-.076-.014-.05-3.083-9.741-3.494-11.04zm-2.618 6.318l1.447-5.25 1.447 5.25H3.226z"
                 />
               </svg> English </a>
-            <div class="dropdown-menu" aria-labelledby="dropdownNavLanguage" id="dropdownNavLanguageMenu"><a href="/en/docs/cli/upgrade" class="dropdown-item active" data-lang="en"> English </a><a href="/es-ES/docs/cli/upgrade" class="dropdown-item" data-lang="es"> Español </a><a href="/fr/docs/cli/upgrade" class="dropdown-item" data-lang="fr"> Français </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownNavLanguage" id="dropdownNavLanguageMenu"><a href="/en/docs/cli/prune" class="dropdown-item active" data-lang="en"> English </a><a href="/es-ES/docs/cli/prune" class="dropdown-item" data-lang="es"> Español </a><a href="/fr/docs/cli/prune" class="dropdown-item" data-lang="fr"> Français </a>
               <a
-              href="/id-ID/docs/cli/upgrade" class="dropdown-item" data-lang="id"> Bahasa Indonesia </a><a href="/ja/docs/cli/upgrade" class="dropdown-item" data-lang="ja"> 日本語 </a><a href="/pt-BR/docs/cli/upgrade" class="dropdown-item" data-lang="pt-br"> Português (Brasil) </a><a href="/tr/docs/cli/upgrade" class="dropdown-item"
-                data-lang="tr"> Türkçe </a><a href="/uk/docs/cli/upgrade" class="dropdown-item" data-lang="uk"> Українська </a><a href="/zh-Hans/docs/cli/upgrade" class="dropdown-item" data-lang="zh-cn"> 中文 </a></div>
+              href="/id-ID/docs/cli/prune" class="dropdown-item" data-lang="id"> Bahasa Indonesia </a><a href="/ja/docs/cli/prune" class="dropdown-item" data-lang="ja"> 日本語 </a><a href="/pt-BR/docs/cli/prune" class="dropdown-item" data-lang="pt-br"> Português (Brasil) </a><a href="/tr/docs/cli/prune" class="dropdown-item"
+                data-lang="tr"> Türkçe </a><a href="/uk/docs/cli/prune" class="dropdown-item" data-lang="uk"> Українська </a><a href="/zh-Hans/docs/cli/prune" class="dropdown-item" data-lang="zh-cn"> 中文 </a></div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://discord.gg/yarnpkg">
@@ -105,63 +105,17 @@
   <main>
     <div class="hero">
       <div class="container">
-        <h1 class="hero-text display-4">yarn upgrade</h1></div>
+        <h1 class="hero-text display-4">yarn prune</h1></div>
     </div>
     <div class="container">
       <div class="row">
         <div class="col-md-8 guide">
           <div class="guide-content">
-            <p class="lead">Upgrades packages to their latest version based on the specified range.</p>
-            <h5 id="yarn-upgrade-package--packagetag--packageversion--scope---ignore-engines---pattern-"><code class="highlighter-rouge">yarn upgrade [package | package@tag | package@version | @scope/]... [--ignore-engines] [--pattern]</code><a class="toc" id="toc-yarn-upgrade-package-package-tag-package-version-scope-ignore-engines-pattern" href="#toc-yarn-upgrade-package-package-tag-package-version-scope-ignore-engines-pattern"></a></h5>
-            <p>This command updates dependencies to their latest version based on the version range specified in the <code class="highlighter-rouge">package.json</code> file. The <code class="highlighter-rouge">yarn.lock</code> file will be recreated as
-              well.</p>
-            <p>Optionally, one or more package names can be specified. When package names are specified, only those packages will be upgraded. When no package names are specified, all dependencies will be upgraded.</p>
-            <p><code class="highlighter-rouge">[package]</code> : When a specified package is only a name then the latest patching version of this package will be upgraded to.</p>
-            <p><code class="highlighter-rouge">[package@tag]</code> : When a specified package contains a tag then the specified tag will be upgraded to. <a href="/lang/en/docs/cli/tag#toc-what-are-tags">Tag</a> names are chosen by project maintainers, typically
-              you use this command to install an experimental or long term support release of an actively developed package. The tag you choose will be the version that appears in your <code class="highlighter-rouge">package.json</code> file.</p>
-            <p><code class="highlighter-rouge">[package@version]</code> : When a specified package contains a version then the specified version will be upgraded to. The <code class="highlighter-rouge">package.json</code> dependency reference will also be
-              changed to match this specified version. You can use any <a href="/lang/en/docs/dependency-versions#toc-semantic-versioning">SemVer</a> version number or range.</p>
-            <p><code class="highlighter-rouge">--ignore-engines</code> : This flag can be used to skip the engines check.</p>
-            <p>Examples:</p>
-            <div class="language-sh highlighter-rouge">
-              <div class="highlight"><pre class="rougeHighlight"><code>yarn upgrade yarn upgrade left-pad yarn upgrade left-pad@^1.0.0 yarn upgrade left-pad grunt yarn upgrade @angular </code></pre></div>
-            </div>
-            <p><code class="highlighter-rouge">yarn upgrade --pattern &lt;pattern&gt;</code> will upgrade all packages that match the pattern.</p>
-            <p>Examples:</p>
-            <div class="language-sh highlighter-rouge">
-              <div class="highlight"><pre class="rougeHighlight"><code>yarn upgrade <span class="nt">--pattern</span> gulp yarn upgrade left-pad <span class="nt">--pattern</span><span class="s2">"gulp|grunt"</span> yarn upgrade <span class="nt">--latest</span><span class="nt">--pattern</span><span class="s2">"gulp-(match|newer)"</span></code></pre></div>
-            </div>
-            <h5 id="yarn-upgrade-package---latest-l---caret----tilde----exact---pattern-"><code class="highlighter-rouge">yarn upgrade [package]... --latest|-L [--caret | --tilde | --exact] [--pattern]</code><a class="toc" id="toc-yarn-upgrade-package-latest-l-caret-tilde-exact-pattern" href="#toc-yarn-upgrade-package-latest-l-caret-tilde-exact-pattern"></a></h5>
-            <p>The <code class="highlighter-rouge">upgrade --latest</code> command upgrades packages the same as the <code class="highlighter-rouge">upgrade</code> command, but ignores the version range specified in <code class="highlighter-rouge">package.json</code>.
-              Instead, the version specified by the <code class="highlighter-rouge">latest</code> tag will be used (potentially upgrading the packages across major versions).</p>
-            <p>The <code class="highlighter-rouge">package.json</code> file will be updated to reflect the latest version range. By default, the existing range specifier in <code class="highlighter-rouge">package.json</code> will be reused if it is one of:
-              ^, ~, &lt;=, &gt;, or an exact version. Otherwise, it will be changed to a caret (^). One of the flags <code class="highlighter-rouge">--caret</code>, <code class="highlighter-rouge">--tilde</code> or <code class="highlighter-rouge">--exact</code>              can be used to explicitely specify a range.</p>
-            <p>Examples:</p>
-            <div class="language-sh highlighter-rouge">
-              <div class="highlight"><pre class="rougeHighlight"><code>yarn upgrade <span class="nt">--latest</span> yarn upgrade left-pad <span class="nt">--latest</span> yarn upgrade left-pad grunt <span class="nt">--latest</span><span class="nt">--tilde</span></code></pre></div>
-            </div>
-            <h5 id="yarn-upgrade---scope-s-scope---latest---pattern-"><code class="highlighter-rouge">yarn upgrade (--scope|-S) @scope [--latest] [--pattern]</code><a class="toc" id="toc-yarn-upgrade-scope-s-scope-latest-pattern" href="#toc-yarn-upgrade-scope-s-scope-latest-pattern"></a></h5>
-            <p><code class="highlighter-rouge">--scope @scope/</code> : When a scope is specified, only packages that begin with that scope will be upgraded. A scope must begin with ‘@’.</p>
-            <p><code class="highlighter-rouge">--latest</code> : Ignores the version range specified in <code class="highlighter-rouge">package.json</code>. Instead, the version specified by the <code class="highlighter-rouge">latest</code> tag will be used
-              (potentially upgrading the packages across major versions).</p>
-            <p>Examples:</p>
-            <div class="language-sh highlighter-rouge">
-              <div class="highlight"><pre class="rougeHighlight"><code>yarn upgrade <span class="nt">--scope</span> @angular yarn upgrade <span class="nt">-S</span> @angular </code></pre></div>
-            </div>
+            <p>The prune command isn’t necessary. <code class="highlighter-rouge">yarn install</code> will prune extraneous packages.</p>
           </div>
           <div class="guide-controls">
             <hr>
-            <div class="clearfix"><a class="btn btn-outline-primary float-left" href="/lang/en/docs/cli/unlink"> &larr; yarn unlink </a><a class="btn btn-primary float-right" href="/lang/en/docs/cli/upgrade-interactive"> yarn upgrade-interactive &rarr; </a></div>
-          </div>
-          <div class="list-group"><strong class="list-group-item bg-faded">Additional Reading</strong><a class="list-group-item list-group-item-action" href="/lang/en/docs/cli/add"><h5 class="list-group-item-heading">yarn add</h5><p class="list-group-item-text text-muted">When you want to use another package, you first need to add it to your dependencies. Running `yarn add` installs it into your project. </p></a>
-            <a
-            class="list-group-item list-group-item-action" href="/lang/en/docs/cli/tag">
-              <h5 class="list-group-item-heading">yarn tag</h5>
-              <p class="list-group-item-text text-muted">Tags are a way of publishing versions of your package with a label. Users of your package can install that instead of a version number. </p>
-              </a><a class="list-group-item list-group-item-action" href="/lang/en/docs/dependency-versions"><h5 class="list-group-item-heading">Versions of dependencies</h5><p class="list-group-item-text text-muted">Packages in Yarn follow Semantic Versioning, also known as “semver”. When you install a new package it will be added with a semver version range. </p></a>
-              <a
-              class="list-group-item list-group-item-action" href="/lang/en/docs/cli/upgrade-interactive">
-                <h5 class="list-group-item-heading">yarn upgrade-interactive</h5></a>
+            <div class="clearfix"><a class="btn btn-outline-primary float-left" href="/lang/en/docs/cli/pack"> &larr; yarn pack </a><a class="btn btn-primary float-right" href="/lang/en/docs/cli/publish"> yarn publish &rarr; </a></div>
           </div>
         </div>
         <div class="col-md-4">
@@ -191,7 +145,7 @@
             <li class="nav-item"><a class="nav-link" href="/lang/en/docs/cli/outdated"> yarn outdated </a></li>
             <li class="nav-item"><a class="nav-link" href="/lang/en/docs/cli/owner"> yarn owner </a></li>
             <li class="nav-item"><a class="nav-link" href="/lang/en/docs/cli/pack"> yarn pack </a></li>
-            <li class="nav-item"><a class="nav-link" href="/lang/en/docs/cli/prune"> yarn prune </a></li>
+            <li class="nav-item"><a class="nav-link active"> yarn prune </a></li>
             <li class="nav-item"><a class="nav-link" href="/lang/en/docs/cli/publish"> yarn publish </a></li>
             <li class="nav-item"><a class="nav-link" href="/lang/en/docs/cli/remove"> yarn remove </a></li>
             <li class="nav-item"><a class="nav-link" href="/lang/en/docs/cli/run"> yarn run </a></li>
@@ -200,7 +154,7 @@
             <li class="nav-item"><a class="nav-link" href="/lang/en/docs/cli/team"> yarn team </a></li>
             <li class="nav-item"><a class="nav-link" href="/lang/en/docs/cli/test"> yarn test </a></li>
             <li class="nav-item"><a class="nav-link" href="/lang/en/docs/cli/unlink"> yarn unlink </a></li>
-            <li class="nav-item"><a class="nav-link active"> yarn upgrade </a></li>
+            <li class="nav-item"><a class="nav-link" href="/lang/en/docs/cli/upgrade"> yarn upgrade </a></li>
             <li class="nav-item"><a class="nav-link" href="/lang/en/docs/cli/upgrade-interactive"> yarn upgrade-interactive </a></li>
             <li class="nav-item"><a class="nav-link" href="/lang/en/docs/cli/version"> yarn version </a></li>
             <li class="nav-item"><a class="nav-link" href="/lang/en/docs/cli/versions"> yarn versions </a></li>
@@ -217,7 +171,7 @@
     <footer class="footer">
       <div class="footer-left"><span class="footer-item">Yarn</span><span class="footer-item"><a href="https://github.com/yarnpkg/yarn/blob/master/LICENSE">Distributed under BSD License</a></span><span class="footer-item"><a href="/lang/en/org/code-of-conduct">Code of Conduct</a></span></div>
       <div
-      class="footer-right"><span class="footer-item"><a href="https://github.com/yarnpkg/website/edit/master/lang/en/docs/cli/upgrade.md">Edit this page</a></span></div>
+      class="footer-right"><span class="footer-item"><a href="https://github.com/yarnpkg/website/edit/master/lang/en/docs/cli/prune.md">Edit this page</a></span></div>
   </footer>
   </div>
   <script>
